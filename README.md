@@ -6,12 +6,20 @@ Este programa ejecuta un modelo de **IA** llamado u2net, que en su primera ejecu
 ## Comandos
 Crea el entorno de virtual de Python
 ```py -m venv venv```
+
 Activa el entorno creado
+
 ```venv\Scripts\activate```
+
 Instalar paquetes necesarios
+
 ```pip install -r .\requeriments.txt```
+
 Crea el ejecutable
+
 ```pyinstaller --onefile --icon=favicon.ico remover.py```
+
 >run.exe se ha generado en .\DIST Ejecución del programa
+
 ## EJECUCIÓN
-remover.exe -i .\input -o .\output
+```remover.exe -i .\input -o .\output```
