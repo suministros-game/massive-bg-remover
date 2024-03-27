@@ -19,7 +19,6 @@ Crea el ejecutable
 
 ```pyinstaller --onefile --icon=favicon.ico remover.py```
 
->remover.exe se ha generado en .\DIST Ejecución del programa
-
+>remover.exe se ha generado en **.\DIST**
 ## EJECUCIÓN
 ```remover.exe -i .\input -o .\output```
